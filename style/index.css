@@ -24,7 +24,7 @@ time, mark, audio, video {
     font-size:.3em;
 }
 
-#ddd {
+#navigation {
     background-color:rgba(0, 0, 0, 0.555);
     color:rgb(94, 125, 172);
     padding:1em;
@@ -32,7 +32,7 @@ time, mark, audio, video {
     width:fit-content;
 }
 
-#ddd a {
+#navigation a {
     background-color:rgb(255, 255, 255);
     border: 1px solid #000000;
     color: #000000;
@@ -41,13 +41,13 @@ time, mark, audio, video {
     margin:.8em;
     padding: .5em;
 }
-#ddd a:hover {
+#navigation a:hover {
     background-color:#000000;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     font-weight:900;
 }
-#ddd h1 {
+#navigation h1 {
     font-size:3em;
     font-style: italic;
     margin-bottom:.6em;
@@ -128,7 +128,7 @@ footer {
     align-items:center;
 
 }
-#GH {
+#GitHub {
     background-color:rgb(0, 0, 0);
     border: 1px solid #467bdd;
     color:rgb(107, 138, 223);
@@ -141,8 +141,44 @@ footer {
     padding: .5em;
 }
 
-#GH:hover {
+#GitHub:hover {
     background-color: rgb(107, 138, 223);
     color: black;
     font-weight:750
 }
+
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 500px) {
+
+    .flex-grid {
+        width:100%;
+        margin: 2em 0em 0em 2em;
+    }
+    #box7 {
+        display: none;
+    }
+    #box8 {
+        display:none;
+    }
+    #selfie {
+        width:180px;
+        height:180px;
+        padding:1em;
+        float: top;
+    }
+    #intro {
+        padding:1em;
+    }
+}
+@media screen and (max-width: 360px) {
+
+}
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 1920px) {
+
+}
+
